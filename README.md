@@ -6,7 +6,7 @@ Developed a canvas app, **model-driven** app, power automate flow, and power BI 
   - `customizations.xml`**(ContosoParkingChallenge_1_0_0_3/customizations.xml)**: All Dataverse customizations, including the model-driven app
   - `CanvasApps`: Canvas app files (e.g., .msapp, background images)
     
-## Model-Driven App: Parking Review Model App Details:
+## Model-Driven App: Parking Review Model App
 The model-driven app ("Parking Review Model App") allows parking admins to review and manage parking requests and inspections.
 
 **Note**: In Power Platform solution exports, model-driven apps are embedded in `customizations.xml` (not in a separate folder like the canvas app).
