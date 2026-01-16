@@ -3,7 +3,7 @@ Developed a canvas app, **model-driven** app, power automate flow, and power BI 
 
 ## Repository Structure
 - **ContosoParkingChallenge_1_0_0_3/**: Unpacked solution export (full source files)
-  - `customizations.xml`**(ContosoParkingChallenge_1_0_0_3/customizations.xml)**: All Dataverse customizations, including the model-driven app
+  - `customizations.xml`**(ContosoParkingChallenge_1_0_0_3/Workflows/customizations.xml)**: All Dataverse customizations, including the model-driven app
   - `CanvasApps`: Canvas app files (e.g., .msapp, background images)
     
 ## Model-Driven App: Parking Review Model App
