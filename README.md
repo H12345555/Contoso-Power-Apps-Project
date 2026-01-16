@@ -45,4 +45,4 @@ Defines the menu structure (Home, VehicleInfos, ParkingRequestInfos, ParkingInsp
 - Or repack into a .zip using Power Platform CLI:  
   `pac solution pack --folder ContosoParkingChallenge_1_0_0_3 --zipFile new-solution.zip`
 
-Questions or want to collaborate? Feel free to open an issue!
+Questions? Feel free to open an issue!
