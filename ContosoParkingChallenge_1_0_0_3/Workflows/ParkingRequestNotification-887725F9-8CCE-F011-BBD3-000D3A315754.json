@@ -1,0 +1,58 @@
+{
+  "properties": {
+    "connectionReferences": {},
+    "definition": {
+      "$schema": "https://schema.management.azure.com/providers/Microsoft.Logic/schemas/2016-06-01/workflowdefinition.json#",
+      "contentVersion": "1.0.0.0",
+      "parameters": {
+        "$authentication": {
+          "defaultValue": {},
+          "type": "SecureObject"
+        }
+      },
+      "triggers": {
+        "Recurrence": {
+          "recurrence": {
+            "frequency": "Minute",
+            "interval": 15
+          },
+          "metadata": {
+            "operationMetadataId": "8d4cbf74-90bd-4947-9564-b9bdfc58c008"
+          },
+          "type": "Recurrence"
+        }
+      },
+      "actions": {
+        "Get_a_row_by_ID_from_the_Vehicles_table_without_using_a_Preimum_connector": {
+          "runAfter": {},
+          "metadata": {
+            "operationMetadataId": "1ffa18c9-4374-489a-aa63-24aad5478036"
+          },
+          "type": "Compose",
+          "inputs": "triggerOutputs()?['body/Available']"
+        },
+        "Initialize_variable_for_request_name": {
+          "runAfter": {
+            "Get_a_row_by_ID_from_the_Vehicles_table_without_using_a_Preimum_connector": [
+              "Succeeded"
+            ]
+          },
+          "metadata": {
+            "operationMetadataId": "dbe75078-ff3b-49e8-a994-53db751c6c1d"
+          },
+          "type": "InitializeVariable",
+          "inputs": {
+            "variables": [
+              {
+                "name": "varRequestName",
+                "type": "string"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "templateName": null
+  },
+  "schemaVersion": "1.0.0.0"
+}
