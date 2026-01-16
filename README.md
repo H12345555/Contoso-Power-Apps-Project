@@ -21,8 +21,9 @@ This repository contains the **unpacked** export of the Contoso Parking Challeng
     High-level solution metadata (publisher, version, description, etc.)
 
 **Outside the root folder:**
-- **`PowerUp Parking Challenge Report`**  
+- **`PowerUp Parking Challenge Report.pbix`**  
   Power BI report files/export for the parking challenge (likely .pbix or exported artifacts)
+-**`Contoso Canvas App Screenshot 1.png`**, **`Contoso Canvas App Screenshot 2.png`**, **`Contoso Model Driven App Screenshot 1.png`**, and **`Contoso Model Driven App Screenshot 2.png`** are screenshots of the canvas app and model-driven app, respectively.
 
 ## Model-Driven App: Parking Review Model App
 
