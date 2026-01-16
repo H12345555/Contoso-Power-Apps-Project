@@ -8,7 +8,7 @@ This repository contains the **unpacked** export of the Contoso Parking Challeng
 
 - **ContosoParkingChallenge_1_0_0_3/** — Root folder of the unpacked solution
   - **[customizations.xml](ContosoParkingChallenge_1_0_0_3/customizations.xml)**  
-    All Dataverse customizations (tables, forms, views, **model-driven app** definition, sitemap, security roles, etc.)
+    All Dataverse customizations (tables, forms, views, **model-driven app** definition, sitemap, security roles, etc.), inlcuding the data for the model-driven app (see "Model-Driven App: Parking Review Model App" section below).
   - **`CanvasApps/`**  
     Canvas app files (e.g., .msapp source, background images, identity JSON)
   - **`Formulas/`**  
